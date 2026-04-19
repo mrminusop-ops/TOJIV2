@@ -27,7 +27,7 @@ from database import (
 # Config (override via environment variables)
 API_ID = int(os.getenv("API_ID", "36442788"))
 API_HASH = os.getenv("API_HASH", "a46cfef94ef9de4026597c6a4addf073")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8710395950:AAEH9E_ip9dOLqM76p_zb1113o0ubBw_qGY")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8615792617:AAEQxc0mWh2e1gHwusCTjOm-JSseYPBzsgk")
 ADMIN_ID = json.loads(os.getenv("ADMIN_ID", "[6598607558]"))
 GROUP_ID = int(os.getenv("GROUP_ID", "-1003684602999"))
 
