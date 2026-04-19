@@ -1,0 +1,15 @@
+# requirements.txt
+# Auto Shopify Checker API - Dependencies
+
+flask==3.0.3
+aiohttp==3.10.10
+asyncio==3.4.3
+requests==2.32.3
+
+# Optional but recommended for production
+gunicorn==23.0.0
+gevent==24.11.1
+uvicorn==0.30.6
+
+# For better performance & proxy support
+aiohttp-socks==0.8.4
